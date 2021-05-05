@@ -12,7 +12,7 @@ body {
 }
 
 .hatter{
-	background-image: url("képek/1968296.jpg");
+	background-image: src("képek/1968296.jpg");
     background-size: cover;
 	background-repeat: no-repeat;
 	margin: : 0px;
@@ -25,7 +25,7 @@ body {
 }
 .hatter-rolam{
 	
-	background-image: url("képek/homalyos_100.jpg");
+	background-image: src("képek/homalyos_100.jpg");
     background-size: cover;
 	background-repeat: no-repeat;
 	margin: : 0px;
