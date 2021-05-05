@@ -1,0 +1,111 @@
+*{
+	box-sizing: border-box;
+}
+body {
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    
+}
+
+.hatter{
+	background-image: url("file:///C:/Users/Bubu/Desktop/Portf%C3%B3li%C3%B3/CSS/k%C3%A9pek/1968296.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	margin: : 0px;
+	padding: : 0px;
+	background-position:bottom;
+	background-attachment: fixed;
+	height: 100vh;
+	border-top: 10px solid lightblue; 
+	
+}
+.hatter-rolam{
+	
+	background-image: url("file:///C:/Users/Bubu/Desktop/Portf%C3%B3li%C3%B3/CSS/k%C3%A9pek/homalyos_100.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	margin: : 0px;
+	padding: : 0px;
+	background-position:bottom;
+	background-attachment: fixed;
+	height: 100vh;
+	border-top: 10px solid lightblue; 
+	display: flex;
+    flex-wrap: wrap;	
+
+}
+    
+.nev{
+	padding-top: 30%;
+	padding-left: 10%;
+	font-size: 60px;
+
+}
+
+.navsav{
+	background-color: lightblue;
+	overflow:hidden; 
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+.navsav a {
+	padding: 5px 15px;
+	float: left;
+	display: block;
+	font-size: 28px;
+	color: black;
+	text-decoration: none;
+}
+
+a.dokumentacio{
+	float: right;
+	padding-right: 15px; 
+}
+
+.portfolio{
+	padding-left: 13%;
+	font-size: 40px;
+}
+
+.block{
+	
+ display: table;
+  
+}
+
+.tartalom{
+	padding: 20px;
+	text-align: justify; 
+	
+}
+
+.kep img{
+	margin-top:70px;
+	width: 40%;
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+ 
+.szoveg{
+	width: 50%;
+	float: left;
+}
+
+h2{
+	padding:20px;
+	margin-right: 60%;
+	text-decoration: underline;
+	border-bottom: 4px solid black;
+}
+
+
+
+
