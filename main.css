@@ -38,6 +38,7 @@ body {
     flex-wrap: wrap;	
 
 }
+
     
 .nev{
 	padding-top: 30%;
@@ -52,8 +53,8 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
-
 }
+
 .navsav a {
 	padding: 5px 15px;
 	float: left;
@@ -72,6 +73,8 @@ a.dokumentacio{
 	padding-left: 13%;
 	font-size: 40px;
 }
+
+/*Rólam*/
 
 .block{
 	
@@ -97,6 +100,7 @@ a.dokumentacio{
 .szoveg{
 	width: 50%;
 	float: left;
+	margin-top: 40px; 
 }
 
 h2{
@@ -107,5 +111,115 @@ h2{
 }
 
 
+/*Képek*/
+
+.foresz {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.sor {
+  margin: 8px -16px;
+}
+
+.oszlop {
+  float: left;
+  width: 25%;
+
+}
+
+.sor:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.toltelek {
+  margin: 10px;
+}
+
+.toltelek img{
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.foresz a{
+	text-decoration: none;
+	color: black;
+
+}
+.foresz a:hover{
+	color:red;
+}
+
+@media screen and (max-width: 900px) {
+  .oszlop {
+    width: 50%;
+  }
+  .kep img{
+	margin-top:50%;
+	width: 100%;
+    border-radius: 10px;
+    border: 3px solid black;
+    
+   }
+  .szoveg{
+  	width: 100%;
+  	margin-top: 20%;
+  }
+  
+}
+
+  @media screen and (max-width: 600px) {
+  .oszlop {
+    width: 100%;
+  }
+  .kep img{
+	margin-top:50%;
+	width: 100%;
+    border-radius: 10px;
+    border: 3px solid black;
+    
+   }
+  .szoveg{
+  	width: 100%;
+  	margin-top: 20%;
+  }
+   
+}
+
+/*Doku*/
+
+.kep_doku img{
+	margin-top:70px;
+	width: 25%;
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 3px solid black;
+
+}
+ 
+h3{
+	padding:20px;
+	font-size: 30px;
+	text-decoration: underline;
+	
+}
+
+.tartalom_2 a{
+	text-decoration: none;
+	color: blue;
+	text-decoration: underline;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+ 
 
 
